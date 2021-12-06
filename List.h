@@ -1,4 +1,6 @@
 #pragma once
+//Header File
+//function prototypes and constants
 
 const int MaxSize = 15;
 typedef  int DataType;

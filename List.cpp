@@ -1,4 +1,5 @@
-
+//Mercedes_AMG_G63s
+//Jaguar_F-pace
 #include "StdAfx.h"
 #include <iostream>
 #include "List.h"
@@ -34,6 +35,7 @@ void Swap (DataType& x, DataType& y)
   y =Temp;
 }                                  
 
+//Function to delete an element from the list
 void List::Delete (DataType e)
 { 
  int index = 0;    
@@ -49,7 +51,7 @@ if  (!(IsEmpty()))
   }
 }
 
-
+//Function to display items in the list
 void List::ShowData ()
 {
  for (int index = 0; index < size; index++)

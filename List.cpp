@@ -1,5 +1,8 @@
+//Masuku
 //Mercedes_AMG_G63s
 //Jaguar_F-pace
+//FUNCTION DEFINATIONS 
+
 #include "StdAfx.h"
 #include <iostream>
 #include "List.h"
@@ -59,4 +62,4 @@ void List::ShowData ()
     cout << endl;
 	
 }
-
+// **************************THE END****************************
